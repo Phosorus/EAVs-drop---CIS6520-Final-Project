@@ -14,6 +14,8 @@ You must put the data into the relevant "data" files, in order to be used.
 Here is a download link of all of the data files, https://drive.google.com/file/d/1p4DwbPzvmoOzgdv9HEsBS8luR4tQJLqz/view?usp=sharing.
 Drag the "data" file into crash_pipeline. 
 
+You can also download the files manually at the links below, but the formatting and options can be finicky.
+
 Test Cases
 build_crash_dataset.py offers error cases for failed conversions.
 visualize_crash.py uses the created datasets as tests.
