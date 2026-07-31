@@ -2,10 +2,15 @@ EAVs-drop Final Project - Pipeline & Display
 
 Usage
 pwsh run_pipeline.ps1                          # most severe crash (default)
+
 pwsh run_pipeline.ps1 -EventId synshrp2_XXXXXXXX #pick spesific event
+
 pwsh run_pipeline.ps1 -Random                  # random event (testing)
+
 pwsh run_pipeline.ps1 -SkipBuild               # re-plot without rebuilding
+
 You must put the data into the relevant "data" files, in order to be used.
+EDR Data has been included, in "EDR Data (unprocessed but formatted).zip". Replace the empty "data" folder in "crash_pipeline" with the "data" folder inside the zip file.
 
 Test Cases
 build_crash_dataset.py offers error cases for failed conversions.
